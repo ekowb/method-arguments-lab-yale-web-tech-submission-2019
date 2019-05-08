@@ -117,6 +117,13 @@ Run the test again and we should be passing the first of our two tests. Use the
 test output and the procedure we just followed to get the second test passing.
 
 #### The `#introduction_with_language` Method
+```ruby
+# lib/introduction_with_language.rb
+def introduction_with_language(name, language)
+  puts "Hi, my name is #{name} and I am learning to program in #{language}. "
+end
+```
+
 
 Define a method, `#introduction_with_language` that takes in two arguments,
 `name` and `language` and outputs the phrase: `"Hi, my name is #{name} and I am
